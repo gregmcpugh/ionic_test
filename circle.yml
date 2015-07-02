@@ -9,10 +9,6 @@ dependencies:
     - npm install -g gulp
     - bower install
 
-test:
-  override:
-    - gulp test
-
 deployment:
   master:
     branch: master
